@@ -5,8 +5,9 @@ from tkinter import simpledialog ,messagebox
 
 window=Tk()
 window.title("File Handling")
-window.configure(background="pink", relief="solid")
+window.configure(background="cadet blue", relief="solid")
 window.geometry("700x500")
+
 
 def qualify():
     try:
@@ -40,7 +41,7 @@ def close_window():
 
 
 
-lb1=Label(window,text="Flights to Malayisa:", font="arial 18 bold")
+lb1=Label(window,text="Flights to Malayisa:",  font="arial 18 bold")
 lb1.pack()
 
 lb3=Label(window,text="Please enter deposit amount below.", font="arial 12")
@@ -60,6 +61,5 @@ clear_button = Button (text = "Clear", command = clear_function)
 clear_button.pack(pady=20)
 
 window.mainloop()
-
 
 
